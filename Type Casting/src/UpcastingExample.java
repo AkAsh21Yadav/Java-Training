@@ -1,0 +1,29 @@
+class Stationary
+{
+	void power()
+	{
+		System.out.println("On");
+	}
+}
+
+class Book extends Stationary
+{
+	@Override
+	void power()
+	{
+		System.out.println("Off");
+	}
+}
+
+public class UpcastingExample
+{
+	public static void main(String[] args) 
+	{
+		Stationary s = new Book();
+	//	Book b = new Book();
+	//	Stationary s = b;
+		
+		s.power();
+		System.out.println(s);
+	}
+}
