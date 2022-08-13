@@ -8,7 +8,6 @@ public class Stringbuilder
         System.out.println("No.of characters : "+sb.length());
         System.out.println("Capacity after : "+sb.capacity());
         
-        
         StringBuilder sb1 = new StringBuilder(25);
         System.out.println("\nCapacity before : "+sb1.capacity());
         sb1.append("India is a Secular nation.");
