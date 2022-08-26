@@ -1,8 +1,0 @@
-
-public class SampleTreeSetExample 
-{
-	public static void main(String[] args) 
-	{
-		TreeSet<Integer> t = new TreeSet();
-	}
-}

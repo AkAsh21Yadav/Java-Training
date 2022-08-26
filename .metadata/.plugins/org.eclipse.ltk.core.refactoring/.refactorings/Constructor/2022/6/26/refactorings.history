@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;com.ak.constructorchaining.WithinClass.java&apos; to &apos;Within.java&apos;&#x0D;&#x0A;- Original project: &apos;Constructor&apos;&#x0D;&#x0A;- Original element: &apos;com.ak.constructorchaining.WithinClass.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ak.constructorchaining.Within.java&apos;" description="Rename compilation unit &apos;WithinClass.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.ak.constructorchaining{WithinClass.java" name="Within.java" references="false" stamp="1655946967169" version="1.0"/>
-</session>

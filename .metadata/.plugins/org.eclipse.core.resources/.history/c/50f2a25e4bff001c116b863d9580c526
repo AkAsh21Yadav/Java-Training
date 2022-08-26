@@ -1,8 +1,0 @@
-
-public class StudentArrayListExample 
-{
-	int id,age;
-	String name;
-	
-	
-}
