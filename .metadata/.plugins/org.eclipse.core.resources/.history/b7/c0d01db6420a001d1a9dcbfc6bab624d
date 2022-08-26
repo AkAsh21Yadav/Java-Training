@@ -1,0 +1,14 @@
+import java.io.FileWriter;
+
+
+public class Write 
+{
+	public static void main(String[] args) 
+	{
+		try
+		{
+			FileWriter w = new FileWriter("Notes.txt");
+		}
+	}
+
+}

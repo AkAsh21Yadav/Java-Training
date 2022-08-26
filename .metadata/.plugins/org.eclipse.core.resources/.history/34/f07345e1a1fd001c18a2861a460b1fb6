@@ -1,0 +1,9 @@
+import java.util.ArrayList;
+
+public class SampleArrayListExampleofTwoCollections 
+{
+	public static void main(String[] args) 
+	{
+		ArrayList<Character> char1 = new ArrayList<>();
+	}
+}

@@ -1,0 +1,20 @@
+class A
+{
+	void eat()
+	{
+		System.out.println("Akash ate Apple...");
+	}
+}
+
+
+
+
+
+
+
+
+
+
+public class MultipleInheritance {
+
+}

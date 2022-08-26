@@ -1,0 +1,11 @@
+package com.ak.constructorchaining;
+
+public class WithinClass 
+{
+	int a,b;
+	
+	public WithinClass(int a int b) 
+	{
+		
+	}
+}

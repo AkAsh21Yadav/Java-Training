@@ -1,0 +1,38 @@
+
+public class ConstructorExample 
+{
+	public ConstructorExample(int a) 
+	{
+		this(21,12);
+		System.out.println("A : "+a);
+	}
+	
+	public ConstructorExample(int a,int b) 
+	{
+		this(11,34,67);
+		System.out.println("Addition : "+(a+b));
+	}
+	
+	public ConstructorExample(int a,int b,int c) 
+	{
+		System.out.println("Addition : "+(a+b+c));
+	}
+	
+	void Multiplication(int a,int b)
+	{
+		System.out.println("Multiplication : "+(a*b));
+	}
+	
+	void Subtraction(int a,int b)
+	{
+		System.out.println("Subtraction : "+(a-b));
+	}
+	
+	public static void main(String[] args) 
+	{
+		ConstructorExample c1 = new ConstructorExample(21);
+		
+		c1.Multiplication(21,11);
+		c1.Subtraction(32,11);
+	}
+}

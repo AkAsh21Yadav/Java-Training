@@ -1,0 +1,22 @@
+class Fruit
+{
+	
+}
+class Apple extends Fruit
+{
+	
+}
+class Mango extends Fruit
+{
+	
+}
+public class Downcasting 
+{
+	public static void main(String[] args) 
+	{
+		Fruit f = new Fruit();
+		
+		
+		System.out.println("Downcasting : " +j);
+	}
+}

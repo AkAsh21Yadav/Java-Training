@@ -1,0 +1,27 @@
+package com.ak.interface_example;
+
+interface Exam
+{
+	void math();
+	void eng();
+	default void marathi()
+	{
+		System.out.println("MArathi");
+	}
+}
+
+public class Example1 implements Exam
+{
+	@Override
+	public void math() 
+	{
+		System.out.println("Mathematics");
+	}
+
+	@Override
+	public void eng() 
+	{
+		System.out.println("English");
+	}
+	
+}

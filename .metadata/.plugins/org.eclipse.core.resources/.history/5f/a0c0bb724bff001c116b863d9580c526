@@ -1,0 +1,17 @@
+
+public class StudentArrayListExample 
+{
+	int id,age;
+	String name;
+	
+	public StudentArrayListExample(int id,String name,int age) 
+	{
+		this.id = id;
+		this.name = name;
+		this.age = age;
+	}
+	
+	
+	
+	
+}

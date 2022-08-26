@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+
+public class SampleArrayListExampleofGenericType 
+{
+	public static void main(String[] args) 
+	{
+		ArrayList<Integer> marks = new ArrayList<>();
+		marks.add(15);
+		marks.add(16);
+		marks.add(17);
+		marks.add(18);
+		marks.add(19);
+		
+		System.out.println(marks);
+	}
+}

@@ -1,0 +1,12 @@
+
+class Example
+{
+	public Example() 
+	{
+		System.out.println("AkAsh");
+	}
+}
+public class Example1 
+{
+
+}

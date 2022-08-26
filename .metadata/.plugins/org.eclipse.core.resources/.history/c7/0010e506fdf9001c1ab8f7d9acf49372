@@ -1,0 +1,16 @@
+package com.ak.interface_example;
+
+interface Vehicle
+{
+	abstract void color();
+	abstract void price();
+	public default brand()
+	{
+		System.out.println("Brand : Mersedes");
+	}
+}
+
+public interface RunnerVehicle 
+{
+
+}

@@ -1,0 +1,32 @@
+package com.akash.datahiding;
+
+class Dog
+{
+	private int price,age;
+	private String color,breed,name;
+	
+	
+	void getInfo()
+	{
+		return (price,age,name,color,breed);
+	}
+	
+	void setInfo(int price,int age,String breed,String color,String name)
+	{
+		this.price = price;
+		this.age = age;
+		this.breed = breed;
+		this.color = color;
+		this.name = name;
+	}
+}
+
+public class Aniaml 
+{
+	public static void main(String[] args) 
+	{
+		Dog d = new Dog();
+		d.setInfo(23145,5,"Labrador","Black","Alpha");
+		System.out.println(d.getInfo("Name : "+name+"Color : "+color+"Breed : "+breed+"Age : "+age+"Price : "+price));
+	}
+}

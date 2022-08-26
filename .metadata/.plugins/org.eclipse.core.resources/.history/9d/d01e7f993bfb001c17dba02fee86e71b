@@ -1,0 +1,12 @@
+package com.akash.datahiding;
+
+class Bike
+{
+	private double price;
+	private String brand,color;
+	private int year;
+}
+public class Vehicle 
+{
+
+}

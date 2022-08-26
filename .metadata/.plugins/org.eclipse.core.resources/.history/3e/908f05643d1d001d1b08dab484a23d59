@@ -1,0 +1,13 @@
+
+class capsul
+{
+	private int id;
+	private String name;
+	
+	
+}
+
+public class Encapsulation 
+{
+	
+}

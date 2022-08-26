@@ -1,0 +1,11 @@
+package com.ak.interface_example;
+
+interface Vehicle
+{
+	
+}
+
+public interface RunnerVehicle 
+{
+
+}

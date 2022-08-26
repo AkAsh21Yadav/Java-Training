@@ -1,0 +1,10 @@
+
+public class TypeCasting 
+{
+	byte a = 121;
+	short b = a;
+	int c = b;
+	long d = c;
+	float e = d;
+	double f = e;
+}

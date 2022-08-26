@@ -1,0 +1,16 @@
+
+public class Length 
+{
+	public static void main(String[] args) 
+	{
+		String name = "AkAsh";
+		int i = 0;
+		char[] ch = name.toCharArray();
+		for (char c : ch) 
+		{	
+			i++;
+		}
+		
+		System.out.println(i);
+	}
+}

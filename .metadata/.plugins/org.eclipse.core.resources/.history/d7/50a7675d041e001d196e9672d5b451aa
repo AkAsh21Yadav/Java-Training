@@ -1,0 +1,14 @@
+
+public class Length 
+{
+	public static void main(String[] args) 
+	{
+		String name = "AkAsh";
+		int count = 0; 
+		while(name != null)
+		{
+			count++;
+		}
+		System.out.println(count);
+	}
+}

@@ -1,0 +1,8 @@
+
+public class Read 
+{
+	public static void main(String[] args) 
+	{
+		FileReader r = new FileReader("Notes.txt");
+	}
+}

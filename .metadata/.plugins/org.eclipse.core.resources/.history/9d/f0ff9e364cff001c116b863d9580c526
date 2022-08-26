@@ -1,0 +1,37 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class StudentArrayListExample 
+{
+	int id,age;
+	String name;
+	
+	public StudentArrayListExample(int id,String name,int age) 
+	{
+		this.id = id;
+		this.name = name;
+		this.age = age;
+	}
+
+	@Override
+	public String toString() 
+	{
+		return "StudentArrayListExample [id=" + id + ", age=" + age + ","
+				+ " name=" + name + "]";
+	}
+	
+	public static void main(String[] args) 
+	{
+		
+		StudentArrayListExample s1 = new StudentArrayListExample(1,"AkAsh",21);
+		StudentArrayListExample s2 = new StudentArrayListExample(2,"Mahi",22);
+		StudentArrayListExample s3 = new StudentArrayListExample(3,"Raj",23);
+		StudentArrayListExample s4 = new StudentArrayListExample(4,"Mark",24);
+		StudentArrayListExample s5 = new StudentArrayListExample(5,"Aplha",25);
+		
+		ArrayList a = new ArrayList(Arrays.asList(s1,s2,s3,s4,s5));
+		
+		System.out.println(a);
+		System.out.println(a.get(0));
+	}
+}

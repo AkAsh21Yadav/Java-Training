@@ -1,0 +1,45 @@
+package com.akash.carapp;
+class Car 
+{
+	String brand ;
+	String color ;
+	
+	void start()
+	{
+		System.out.println("Turn the key to start ...");
+	}
+}
+class SedanCar extends Car
+{  }
+class SuperCar extends Car
+{
+	@Override
+	void start()
+	{
+		System.out.println("Push button to start...");
+	}
+}
+class Suv extends Car
+{  }
+public class TestCar
+{
+	public static void main(String[] args) 
+	{
+		SedanCar s1 = new SedanCar();
+		SuperCar s2 = new SuperCar();
+		Suv s3 = new Suv();
+		
+		s1.start();
+		s2.start();
+		s3.start();
+		
+		s3.brand = "Mercedes";
+		s3.color = "White";
+		
+		System.out.println("\nBrand of SUV car : " +s3.brand);
+		System.out.println("Color of SUV car : " +s3.color);
+		System.out.println(s3);
+	}
+}
+
+

@@ -1,0 +1,15 @@
+package com.ak.interface_example;
+
+public class ProductArrayListExample 
+{
+	int productId;
+	String name;
+	
+	public ProductArrayListExample(int productId, String name) 
+	{
+		this.productId = productId;
+		this.name = name;
+	}
+	
+	
+}

@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class SampleLinkedListExample 
+{
+	public static void main(String[] args) 
+	{
+		LinkedList a = new LinkedList(Arrays.asList(11,"AkAsh",21,21.21,null,true));
+		
+		System.out.println(a);
+		System.out.println(a.size());
+		System.out.println(a.get(1));
+		System.out.println(a.isEmpty());
+		System.err.println(a.remove(4));
+		System.out.println(a);
+		System.out.println(a.size());
+		System.out.println(a.set(3,"Yadav"));
+		System.out.println(a);
+		System.out.println(a.size());
+		
+	}
+}

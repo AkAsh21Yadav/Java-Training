@@ -1,0 +1,13 @@
+package com.ak.StringBuilder;
+
+public class Exampl1 
+{
+	public static void main(String[] args) 
+	{
+		StringBuilder s = new StringBuilder();
+		s.append(21);
+		s.append(24);
+		s.append(35);
+		System.out.println(s);
+	}
+}

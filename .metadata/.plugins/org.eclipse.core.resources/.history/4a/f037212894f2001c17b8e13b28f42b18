@@ -1,0 +1,22 @@
+package com.ak.constructorchaining;
+
+class Animal
+{
+	Animal(int a,int b)
+	{
+		System.out.println(a*b);
+	}
+}
+
+public class OutsideClass extends Animal 
+{
+	public OutsideClass(int a) 
+	{
+		super(12,12);
+		System.out.println(a);
+	}
+	public static void main(String[] args) 
+	{
+		new OutsideClass();
+	}
+}

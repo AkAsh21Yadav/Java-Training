@@ -1,0 +1,8 @@
+
+public class SampleArrayListExampleofGenericType 
+{
+	public static void main(String[] args) 
+	{
+		ArrayList<Integer> marks = new ArrayList<>();
+	}
+}

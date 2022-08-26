@@ -1,0 +1,18 @@
+
+interface Vegetable
+{
+	default void price()
+	{
+		System.out.println("Price of the vegetable");
+	}
+	void freshness();
+	void name();
+}
+
+
+
+
+public class RunnerVegetable 
+{
+
+}

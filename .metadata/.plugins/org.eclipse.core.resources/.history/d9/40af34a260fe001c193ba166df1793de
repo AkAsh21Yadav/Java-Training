@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class SampleLinedListExample 
+{
+	public static void main(String[] args) 
+	{
+		LinkedList a = new LinkedList(Arrays.asList(11,"AkAsh",21,21.21,null,true));
+		
+		System.out.println(a);
+		
+	}
+}
