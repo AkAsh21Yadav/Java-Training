@@ -1,0 +1,38 @@
+
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class ProductArrayListExample 
+{
+	int productId;
+	String name;
+	
+	public ProductArrayListExample(int productId, String name) 
+	{
+		this.productId = productId;
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "ProductArrayListExample [productId=" + productId + ", name=" + name + "]";
+	}
+	
+	public static void main(String[] args) 
+	{
+		ProductArrayListExample p1 = new ProductArrayListExample(1,"Mobile");
+		ProductArrayListExample p2 = new ProductArrayListExample(2,"Kitchen");
+		ProductArrayListExample p3 = new ProductArrayListExample(3,"Furniture");
+			
+		ArrayList a = new ArrayList(Arrays.asList(p1,p2,p3));
+		System.out.println(a);
+		System.out.println(a.size());
+		
+		System.out.println("\nFor each loop : ");
+		for(Object o : a)
+		{
+			System.out.println(o);
+		}
+	}
+}

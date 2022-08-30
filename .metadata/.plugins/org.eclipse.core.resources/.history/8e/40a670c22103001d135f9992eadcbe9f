@@ -1,0 +1,20 @@
+
+public class ThrowException 
+{
+	static void checkAge(int age) 
+	{
+		if(age > 18)
+		{
+			System.out.println("Access Granted");
+		}
+		else
+		{
+			throw new ArithmeticException("Access Denied");
+		}
+	}
+	
+	public static void main(String[] args) 
+	{
+		checkAge(21);
+	}
+}

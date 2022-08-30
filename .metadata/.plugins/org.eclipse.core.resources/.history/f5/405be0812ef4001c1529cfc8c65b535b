@@ -1,0 +1,6 @@
+import java.util.Arrays;
+
+public class ArrayBasic 
+{
+	int[] nums = {12,20,30,40,50};
+}

@@ -1,0 +1,17 @@
+package com.ak.constructorchaining;
+
+class Bike
+{
+	Bike()
+	{
+		System.out.println("The bike is good");
+	}
+	Bike(String color,String brand)
+	{
+		
+	}
+}
+public class RunnerVehicle 
+{
+
+}

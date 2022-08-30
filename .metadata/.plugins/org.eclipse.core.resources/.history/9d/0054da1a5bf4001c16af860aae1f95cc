@@ -1,0 +1,25 @@
+public class Casting 
+{
+	public static void main(String[] args) 
+	{
+		byte b = 21;
+		short s = b;
+		int i = s;
+		long l = i;
+		System.out.println("Widening of Int : " +l);
+		
+		long l1 = 131;
+		int i1 = (int) (l1);
+		short s1 = (short) (i1);
+		byte b1 = (byte) (s1);
+		System.out.println("Narrowing of Int : " +b1);
+		
+		float f1 = 412.32325f;
+		double d1 = f1;
+		System.out.println("\nWidening of Float : " +d1);
+		
+		double d2 = 535.325635521452;
+		float f2 = (float) d2;
+		System.out.println("Narrowing of Float : " +f2);
+	}
+}

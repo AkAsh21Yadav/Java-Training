@@ -1,0 +1,14 @@
+package com.akash.bankexample;
+
+class Account{
+	private int no;
+	private double balance;
+	private String name,type;
+	private boolean isInactive;
+	
+	
+}
+
+public class AccountRunner {
+
+}

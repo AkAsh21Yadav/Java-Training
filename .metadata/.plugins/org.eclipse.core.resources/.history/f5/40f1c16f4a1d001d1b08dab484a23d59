@@ -1,0 +1,33 @@
+
+class Encap
+{
+	private int id;
+	private String Name;
+	
+	public int getId() 
+	{
+		return id;
+	}
+	public void setId(int id) 
+	{
+		this.id = id;
+	}
+	public String getName()
+	{
+		return Name;
+	}
+	public void setName(String name) 
+	{
+		Name = name;
+	}
+}
+
+public class SetAndGetEncap 
+{
+	public static void main(String[] args) 
+	{
+		Encap e = new Encap();
+		e.setId(2);
+	}
+	
+}

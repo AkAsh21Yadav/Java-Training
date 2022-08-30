@@ -1,0 +1,16 @@
+import java.util.Arrays;
+import java.util.HashSet;
+
+public class SampleHashSetExample 
+{
+	public static void main(String[] args) 
+	{
+		HashSet h1 = new HashSet(Arrays.asList("AkAsh",21,21.21,true,null));
+		System.out.println(h1);
+		System.out.println(h1.size());
+		System.out.println(h1.isEmpty());
+		System.out.println(h1.remove(21.21));
+		System.out.println(h1);
+		System.out.println(h1.contains("AkAsh"));
+	}
+}

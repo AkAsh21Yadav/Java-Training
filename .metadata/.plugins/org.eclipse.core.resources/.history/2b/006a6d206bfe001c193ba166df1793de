@@ -1,0 +1,25 @@
+import java.util.Arrays;
+import java.util.LinkedHashSet;
+
+public class SampleLinkedHashSetExample 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("LinkedHashSet Heterogenous Class : ");
+		LinkedHashSet a = new LinkedHashSet(Arrays.asList("AkASh",21,11.11,true,null,null));
+		System.out.println(a);
+		System.out.println(a.size());
+		
+		System.out.print("\nLinkedHashSet Homogenous Class : ");
+		LinkedHashSet<Integer> b = new LinkedHashSet<>(Arrays.asList(12,22,32,42,52));
+		System.out.println("\n"+b);
+		System.out.println(b.size());
+		System.out.println(b.add(65));
+		System.out.println(b.add(65));
+		System.out.println(b);
+		System.out.println(b.contains(32));
+		System.out.println(b.isEmpty());
+		System.out.println(b.remove(22));
+		System.out.println(b);
+	}
+}

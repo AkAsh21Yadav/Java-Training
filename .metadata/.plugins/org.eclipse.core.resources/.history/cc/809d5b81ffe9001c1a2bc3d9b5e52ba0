@@ -1,0 +1,36 @@
+package com.akash.datahiding;
+
+class Dog
+{
+	private int price;
+	private String color;
+	
+	int getprice()
+	{	
+		return price;	
+	}
+	void setPrice(int price)
+	{	
+		this.price = price;	
+	}
+	String getColor()
+	{	
+		return color;
+	}
+	void setColor(String color)
+	{	
+		this.color = color;	
+	}
+}
+
+public class Aniaml 
+{
+	public static void main(String[] args) 
+	{
+		Dog d = new Dog();
+		d.setPrice(21345);
+		d.setColor("Black");
+		
+		System.out.println("Color : "+d.getColor()+"\nPrice : "+d.getprice());		
+	}
+}

@@ -1,0 +1,23 @@
+import java.io.FileWriter;
+import java.io.IOException;
+
+
+public class Write 
+{
+	public static void main(String[] args) 
+	{
+		try
+		{
+			FileWriter w = new FileWriter("Notes.txt");
+			w.write("Java is very Interesting & Fine language");
+			w.close();
+			System.out.println("Written successfully");
+		}
+		catch(IOException e)
+		{
+			System.out.println("Error occurred");
+			e.printStackTrace();
+		}
+	}
+
+}

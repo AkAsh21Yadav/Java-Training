@@ -1,0 +1,31 @@
+package com.akash.datahiding;
+
+class Animal
+{
+	int a,b,c,d;
+	String s1,s2;
+	
+	public Animal(int a, int b, int c) 
+	{
+		this.a = a;
+		this.b = b;
+		this.c = c;	
+	}
+	
+	void getSub()
+	{
+		d = a - b - c;
+		System.out.println("Subtraction : "+d);
+	}
+	
+}
+
+public class Main2 
+{
+	public static void main(String[] args) 
+	{
+		Animal a1 = new Animal(25,12,9);
+	//	a2.s2 = "Odisha";
+		a1.getSub();
+	}
+}

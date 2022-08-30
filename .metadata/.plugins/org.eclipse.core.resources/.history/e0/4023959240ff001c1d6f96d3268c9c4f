@@ -1,0 +1,25 @@
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.TreeSet;
+
+public class SampleTreeSet 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("1st TreeSet : ");
+		TreeSet t1 = new TreeSet(Arrays.asList("AkAsh","Rohit","Mahi"));
+		System.out.println(t1);
+		
+		System.out.println("\n2nd TreeSet : ");
+		TreeSet<Integer> t2 = new TreeSet<Integer>(Collections.reverseOrder());
+		t2.add(10);t2.add(2);t2.add(30);t2.add(40);t2.add(50);
+		System.out.println(t2);
+		System.out.println(t2.add(15));
+		System.out.println(t2);
+		System.out.println(t2.contains(30));
+		System.out.println(t2.isEmpty());
+		System.out.println(t2.remove(2));
+		System.out.println(t2);
+		System.out.println(t2.size());
+	}
+}

@@ -1,0 +1,10 @@
+import java.util.*;
+package linkedListExample;
+
+public class SampleLinedListExample 
+{
+	public static void main(String[] args) 
+	{
+		LinkedList a = new LinkedList();
+	}
+}

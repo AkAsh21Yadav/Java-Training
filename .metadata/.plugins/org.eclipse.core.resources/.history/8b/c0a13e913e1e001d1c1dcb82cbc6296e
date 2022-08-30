@@ -1,0 +1,75 @@
+package Lombok;
+
+class Exam
+{
+	private int id;
+	private String name;
+	private int std;
+	private String sub;
+	
+	
+
+	public Exam(int id, String name, int std, String sub)
+	{
+		this.id = id;
+		this.name = name;
+		this.std = std;
+		this.sub = sub;
+	}
+
+	public int getId() 
+	{
+		return Id;
+	}
+
+	public void setId(int id)
+	{
+		Id = id;
+	}
+
+	public String getName() 
+	{
+		return Name;
+	}
+
+	public void setName(String name) 
+	{
+		Name = name;
+	}
+
+	public int getStd() 
+	{
+		return Std;
+	}
+
+	public void setStd(int std)
+	{
+		Std = std;
+	}
+
+	public String getSub() 
+	{
+		return sub;
+	}
+
+	public void setSub(String sub) 
+	{
+		this.sub = sub;
+	}
+
+	@Override
+	public String toString() 
+	{
+		return "Exam [Id=" + Id + ", Name=" + Name + ", Std=" + Std + ", sub=" + sub + "]";
+	}
+	
+}
+
+public class Example1 
+{
+	public static void main(String[] args) 
+	{
+		Exam e = new Exam();
+	
+	}
+}

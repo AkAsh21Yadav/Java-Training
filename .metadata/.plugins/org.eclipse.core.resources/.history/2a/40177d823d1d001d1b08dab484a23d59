@@ -1,0 +1,17 @@
+
+class capsul
+{
+	private int id;
+	private String name;
+	
+	public capsul() 
+	{
+		id = 21;
+		name = "AkAsh";
+	}
+}
+
+public class Encapsulation 
+{
+	
+}

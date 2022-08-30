@@ -1,0 +1,19 @@
+
+class Example
+{
+	public Example() 
+	{
+		System.out.println("AkAsh");
+	}
+	
+	public Example(int a,int b) 
+	{
+		System.out.println(a+b);
+	}
+	
+	
+}
+public class Example1 
+{
+
+}

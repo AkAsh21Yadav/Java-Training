@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+public class SampleCollectionExample 
+{
+	public static void main(String[] args) 
+	{
+		ArrayList a = new ArrayList();
+		a.add(21);
+		a.add("AkAsh");
+		a.add('A');
+		a.add(true);
+		a.add(null);
+		a.add(21.21);
+	}
+}

@@ -1,0 +1,17 @@
+package com.akash.datahiding;
+
+class Animal
+{
+	int a;
+	String s1;
+
+	
+}
+
+public class Main 
+{
+	public static void main(String[] args) 
+	{
+	
+	}
+}

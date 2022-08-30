@@ -1,0 +1,9 @@
+
+public class StringReverse 
+{
+	public static void main(String[] args) 
+	{
+		String name = "Tom Adams";
+		int count = name.length();
+	}
+}

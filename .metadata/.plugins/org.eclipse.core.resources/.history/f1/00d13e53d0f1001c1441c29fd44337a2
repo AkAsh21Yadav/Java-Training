@@ -1,0 +1,24 @@
+class Stationary
+{
+	void power()
+	{
+		System.out.println("On");
+	}
+}
+
+class Book extends Stationary
+{
+	void power()
+	{
+		System.out.println("Off");
+	}
+}
+
+public class UpcastingExample
+{
+	public static void main(String[] args) 
+	{
+		Gadget g = new Phone();
+		g.power();
+	}
+}

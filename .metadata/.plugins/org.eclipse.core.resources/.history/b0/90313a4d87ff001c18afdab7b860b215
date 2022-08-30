@@ -1,0 +1,21 @@
+package com.ak.interface_example;
+
+public class ProductArrayListExample 
+{
+	int productId;
+	String name;
+	
+	public ProductArrayListExample(int productId, String name) 
+	{
+		this.productId = productId;
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "ProductArrayListExample [productId=" + productId + ", name=" + name + "]";
+	}
+	
+	
+	
+}

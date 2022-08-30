@@ -1,0 +1,13 @@
+package com.ak.constructorchaining;
+
+class Bike
+{
+	Bike()
+	{
+		
+	}
+}
+public class RunnerVehicle 
+{
+
+}

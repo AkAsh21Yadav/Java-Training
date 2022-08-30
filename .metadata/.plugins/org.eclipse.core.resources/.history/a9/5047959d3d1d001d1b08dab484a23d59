@@ -1,0 +1,23 @@
+
+class capsul
+{
+	private int id;
+	private String name;
+	
+	public capsul() 
+	{
+		id = 21;
+		name = "AkAsh";
+	}
+	
+	void display()
+	{
+		System.out.println("Id : "+id+"\nName : "+name);
+	}
+}
+
+public class Encapsulation 
+{
+	capsul c = new capsul();
+	c.display();
+}

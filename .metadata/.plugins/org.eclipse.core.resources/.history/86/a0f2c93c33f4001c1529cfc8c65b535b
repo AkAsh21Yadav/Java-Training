@@ -1,0 +1,10 @@
+import java.util.Arrays;
+
+public class ArrayExample 
+{
+	public static void main(String[] args) 
+	{
+		char[] c = new char[4];
+		char
+	}
+}

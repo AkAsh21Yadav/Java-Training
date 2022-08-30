@@ -1,0 +1,46 @@
+package com.ak.constructorchaining;
+
+class Bike
+{
+	String color,brand;
+	int price;
+	
+	Bike()
+	{	
+		this(85412);
+		System.out.println("The bike is good");
+	}
+	Bike(String color,String brand)
+	{
+		this.color = color;
+		this.brand = brand;
+		System.out.println("Brand : "+brand+"\nColor : "+color);
+	}
+	Bike(int price)
+	{
+		this("Honda","White");
+		this.price = price;
+		System.out.println("Price : "+price);
+	}
+}
+
+class Truck
+{
+	int price;
+	String color;
+	
+	Truck()
+	{
+		System.out.println("This is truck's constructor");
+	}
+	Truck(int price,String color)
+	{
+		this.color = color;
+		this.price = price;
+		System.out.println("Price : "+price+"\nColor : ");
+	}
+}
+public class RunnerVehicle 
+{
+
+}

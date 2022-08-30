@@ -1,0 +1,26 @@
+
+public class ConstructorExample 
+{
+	public ConstructorExample(int a) 
+	{
+		System.out.println("A : "+a);
+	}
+	
+	public ConstructorExample(int a,int b) 
+	{
+		System.out.println("Addition : "+(a+b));
+	}
+	
+	public ConstructorExample(int a,int b,int c) 
+	{
+		System.out.println("Addition : "+(a+b+c));
+	}
+	
+	public static void main(String[] args) 
+	{
+		ConstructorExample c1 = new ConstructorExample(21);
+		ConstructorExample c2 = new ConstructorExample(11,11);
+		ConstructorExample c3 = new ConstructorExample(21,32,51);
+		
+	}
+}

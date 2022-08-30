@@ -1,0 +1,12 @@
+package pattern.practice;
+
+import java.util.Scanner;
+
+public class Star2 
+{
+	public static void main(String[] args) 
+	{
+		Scanner s = new Scanner(System.in);
+		
+	}
+}
