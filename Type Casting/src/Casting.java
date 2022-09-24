@@ -12,16 +12,10 @@ public class Casting
 		
 		double d1 = 131.42351;
 		float f1 = (float) d1;
-		System.out.println("value :" +f1);
-		
-		long l1 = (long) f1;
-		System.out.println("value : "+l1);			//Data Loss
-		
+		long l1 = (long) f1;		//Data Loss
 		int i1 = (int) (l1);
 		short s1 = (short) (i1);
 		byte b1 = (byte) (s1);
-		System.out.println("Narrowing of Int : " +b1);
-		
-		
+		System.out.println("Narrowing of Int : " +b1);		
 	}
 }

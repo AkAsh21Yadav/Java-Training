@@ -1,0 +1,23 @@
+
+public class Primitive 
+{
+	public static void main(String[] args) 
+	{
+		byte b = 111;
+		short s = b;
+		int i = s;
+		long l = i;
+		float f = l;
+		double d = f;
+		System.out.println("Widening : "+d);
+		
+		double d1 = 111.0;
+		float f1 = (float) d1;
+		long l1 = f1;
+		int i1 = l1;
+		short s1 = i1;
+		byte b1 = s1;
+		
+		
+	}
+}

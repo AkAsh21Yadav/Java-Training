@@ -1,0 +1,13 @@
+
+public class SwitchEx 
+{
+	public static void main(String[] args) 
+	{
+		int x = 2;
+		switch(x)
+			case1:
+				System.out.println("1");
+				break;
+				
+	}
+}

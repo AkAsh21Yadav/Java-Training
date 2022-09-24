@@ -1,18 +1,26 @@
 class Jewel
 {
-	final int VALUE = 2121;
+	final int VALUE;
+	
+	public Jewel() 
+	{
+		VALUE = 2121;
+	}
+	
 	final void price()
 	{
-		System.out.println("Price is high");
+		System.out.println("Price : High");
 	}
 }
+
 final class Ring extends Jewel
 {
 	void type()
 	{
-		System.out.println("Diamond");
+		System.out.println("Type : Diamond");
 	}
 }
+
 public class FinalKeywordExample 
 {
 	public static void main(String[] args) 

@@ -1,0 +1,22 @@
+class Final
+{
+
+	final int num = 21;
+	System.out.println("number : "+num)
+
+	void display()
+	{
+		System.out.println("This is Final Method");
+	}
+}
+
+public class FinalEx extends Final
+{
+	
+	public static void main(String[] args) 
+	{	
+		
+		
+		
+	}
+}

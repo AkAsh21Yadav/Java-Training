@@ -1,0 +1,12 @@
+
+class Non
+{
+	void info()
+	{
+		System.out.println("This is for Information");
+	}
+}
+public class NonPrimitive 
+{
+	
+}

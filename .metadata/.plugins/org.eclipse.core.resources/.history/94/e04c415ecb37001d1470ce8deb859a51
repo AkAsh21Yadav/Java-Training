@@ -1,0 +1,16 @@
+
+public class FinalEx 
+{
+	public static void main(String[] args) 
+	{
+		final int num = 21;
+		System.out.println("Number : "+num);
+		
+		public void display()
+		{
+			System.out.println("This is Final Method");
+		}
+		
+		
+	}
+}

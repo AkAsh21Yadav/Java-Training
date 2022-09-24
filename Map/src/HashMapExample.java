@@ -23,7 +23,7 @@ public class HashMapExample
 		System.out.println("Replacement after insertion : "+student);	
 		
 		LinkedHashMap h = new LinkedHashMap(student);
-		System.out.println("\nLinkedHashMap : "+student);	
+		System.out.println("\nLinkedHashMap : "+h);	
 		
 		System.out.println("\nPrinting only keys : ");
 		h.forEach((k,v) -> System.out.println(k));

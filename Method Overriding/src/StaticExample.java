@@ -9,13 +9,13 @@ class Example
 
 public class StaticExample extends Example
 {
-	static void eat() //We cannot override the static method by instance method
+	static void eat() //We cannot override the static method
 	{
 		System.out.println("Break");
 	}
 	
 	public static void main(String[] args) 
 	{
-		StaticExample.eat();
+		eat();
 	}
 }

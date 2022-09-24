@@ -18,7 +18,7 @@ class SmartPhone extends Phone
 	@Override
 	void switchOn()
 	{
-		System.out.println("This is SmarrtPhone");
+		System.out.println("This is SmartPhone");
 	}
 }
 public class Upcasting 

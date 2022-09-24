@@ -1,0 +1,20 @@
+
+public class SwitchEx 
+{
+	public static void main(String[] args) 
+	{
+		int x = 2;
+		switch(x)
+			case1:
+				System.out.println("Ranchi");
+				break;
+			case1:
+				System.out.println("Pune");
+				break;
+			case1:
+				System.out.println("Raipur");
+				break;
+			default:
+				System.out.println("Kolkata");
+	}
+}
